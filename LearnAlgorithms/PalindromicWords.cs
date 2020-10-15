@@ -8,7 +8,7 @@ namespace LearnAlgorithms
     public class PalindromicWords
     {
         public static List<string> GetPalindromicWords(string input)
-        {
+        { 
             List<string> words = new List<string>();
             for (int i = 2; i < input.Length; i++)
             {
