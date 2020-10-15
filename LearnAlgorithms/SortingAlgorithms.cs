@@ -7,7 +7,7 @@ namespace LearnAlgorithms
 {
     public class SortingAlgorithms
     {
-        public List<int> SelectionSort(int[] array)
+        public static List<int> SelectionSort(int[] array)
         {
             for (int i = 0; i < array.Length-1; i++)
             {
