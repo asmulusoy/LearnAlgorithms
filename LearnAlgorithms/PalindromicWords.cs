@@ -10,6 +10,7 @@ namespace LearnAlgorithms
         public static List<string> GetPalindromicWords(string input)
         { 
             List<string> words = new List<string>();
+            string mustafa = "deneme";
             for (int i = 2; i < input.Length; i++)
             {
                 string palindromicWord = string.Empty;
