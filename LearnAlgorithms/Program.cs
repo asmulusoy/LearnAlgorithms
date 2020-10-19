@@ -20,8 +20,12 @@ namespace LearnAlgorithms
             //#endregion
 
 
-
+            Yaz();
             Console.ReadLine();
+        }
+        static void Yaz()
+        {
+            Console.WriteLine("Hello");
         }
 
     }
